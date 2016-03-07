@@ -45,13 +45,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#about">Lorem ipsum 1</a>
+                    <a href="smarna">Šmarna gora</a>
                 </li>
                 <li>
-                    <a href="#services">Lorem ipsum 2</a>
-                </li>
-                <li>
-                    <a href="#contact">Lorem ipsum 3</a>
+                    <a href="prijavljeni">Prijavljeni</a>
                 </li>
             </ul>
         </div>

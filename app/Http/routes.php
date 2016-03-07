@@ -13,7 +13,15 @@
 
 Route::get("/", ["uses" => "DrustvoController@index"]);
 
-Route::get("smarna", ["uses" => "SmarnaController@smarna"]);
+Route::get("prijavljeni", ["uses" => "DrustvoController@prijavljeni"]);
+
+Route::get("shranjeno", ["uses" => "DrustvoController@shranjeno"]);
+
+Route::get("smarna", ["uses" => "DrustvoController@smarna"]);
+Route::post("smarna", ["uses" => "DrustvoController@store"]);
+
+Route::get("/{id}", ["uses" => "DrustvoController@detajli"]);
+
 
 
 /*
